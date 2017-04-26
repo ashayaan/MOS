@@ -1,0 +1,28 @@
+Script started on Wednesday 01 February 2017 10:15:39 PM IST
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/assignment1shayaan@shayaan-X550LD:~/sem_6/mos/assignment1$ echo Author Ahmad Shaa[Kyaan [K
+Author Ahmad Shayaan
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/assignment1shayaan@shayaan-X550LD:~/sem_6/mos/assignment1$ make [K
+gcc -std=gnu99 evm.c -o evm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/assignment1shayaan@shayaan-X550LD:~/sem_6/mos/assignment1$ ./a[Kevm -k 35 18
+35 18 resuming core from 0
+1 252 8 1 254 10 2 10 8 1 8 250 8 1 250 0 5 1 0 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/assignment1shayaan@shayaan-X550LD:~/sem_6/mos/assignment1$ ./evm -k 35 18 4 5
+resuming core from 0
+1 252 8 1 254 10 2 10 8 1 8 250 8 1 250 0 5 1 9 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/assignment1shayaan@shayaan-X550LD:~/sem_6/mos/assignment1$ ./evm -x 4 5
+103 19 1 252 8 1 254 10 2 10 8 1 8 250 8 1 250 0 5 1 0 4 5 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/assignment1shayaan@shayaan-X550LD:~/sem_6/mos/assignment1$ ./evm -x 4 5 |./evm -i
+9 ]0;shayaan@shayaan-X550LD: ~/sem_6/mos/assignment1shayaan@shayaan-X550LD:~/sem_6/mos/assignment1$ ./evm -x 4 5 |./evm -i[K[6@k 35 18[C[C[C[C[C[1@-[1@s[1@ [1@a[1@s[1@s[1@i[1@g[1@n[1@m[1@e[1@n[1@t[1@ [1P[1@1[1@.[1@o[1@n[1P[1P[1@i[1@n[1P[1@m[1@g[1@ 
+resuming core from 0
+1 252 8 1 254 10 2 10 8 1 8 250 8 1 250 0 5 1 9 saving image into new file assignment1.img
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/assignment1shayaan@shayaan-X550LD:~/sem_6/mos/assignment1$ echo changing value of 5 to 8 in image file [K
+changing value of 5 to 8 in image file
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/assignment1shayaan@shayaan-X550LD:~/sem_6/mos/assignment1$ echo changing value of 5 to 8 in image file[6P./evm -s assignment1.img -k 35 18 4 5[15Px 4 5 |./evm -i[K[6@k 35 18[C[C[C[C[Kmake[Kecho Author Ahmad Shayaan[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./evm -l assignment1.img 
+loading image from assignment1.img
+resuming core from 51
+1 252 8 1 254 10 2 10 8 1 8 250 8 1 250 0 5 1 9 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/assignment1shayaan@shayaan-X550LD:~/sem_6/mos/assignment1$ exit
+exit
+
+Script done on Wednesday 01 February 2017 10:17:04 PM IST

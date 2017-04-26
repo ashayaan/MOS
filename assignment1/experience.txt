@@ -1,0 +1,7 @@
+The assignment helped me to experience what is it like to code in machine language. It also taught me that memory is very expensive resource, until now all the assignments we were given memory was the least of our worries. There were more than one instances where my code was writing over itself as I had limited memory and gave the wrong address, this resulted in garbage results and a lot of segmentation faults, which took a lot of time to solve.
+
+While working on the assignment I had to routinely count to know the address where the jump statement should jump to. This also caused a lot of problems as even if I added some line of code in between the memory array I had to sit and count from the beginning and change the address of the jump statements.
+
+Debugging was also a problem as each instruction was a number. I had to routinely copy the machine instruction for the terminal, convert them back to text form and then understand where the code was going wrong.
+
+After this assignment, I also think that code written in machine language are much more susceptible to error compared to code written in high level languages.

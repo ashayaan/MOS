@@ -1,0 +1,9 @@
+The solution for assignment is in gossip.c
+
+compilation command
+
+make all
+
+execution command
+
+./gossip

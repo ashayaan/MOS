@@ -1,0 +1,45 @@
+Script started on Wednesday 29 March 2017 09:28:00 AM IST
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ls
+day1.log  day3.log  day5.log  doubt.txt  [0m[01;32mobjhello[0m          objhello_3.c  ovm.c     ovmhello.c  test.c    vt.c
+day2.log  day4.log  day6.log  makefile   objhello_3 (1).c  objhello.c    [01;32movmhello[0m  [01;32mtest[0m        test.txt
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ resert[K[Kt
+[3g        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>make ]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./a.[K[K[K[K./objhello 
+Testing String
+hello sizeInMemory 20
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Array sizeInMemory 48
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ mkae [K[K[K[Kae[Kke 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./o[Kb[Kobjhello 
+Testing String
+hello sizeInMemory 20
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Array sizeInMemory 48
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ exit [K
+exit
+
+Script done on Wednesday 29 March 2017 09:32:08 AM IST

@@ -1,0 +1,315 @@
+Script started on Sunday 26 March 2017 04:22:17 PM IST
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ echo "Ahmad Shaaan [K[K[K[Ku[Kyaan [K"
+Ahmad Shayaan
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./a[Kobjhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+objhello.c:49:24: error: redefinition of ‘String_append’
+ static struct object * String_append(struct closure * cls, HString self1,HString self2){
+                        ^
+objhello.c:32:24: note: previous definition of ‘String_append’ was here
+ static struct object * String_append(struct closure * cls, HString self1,HString self2){
+                        ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello [5Pmake 3./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+In file included from objhello.c:1:0:
+objhello.c: In function ‘main’:
+objhello.c:79:47: error: ‘h’ undeclared (first use in this function)
+  printf("hello sizeInMemory %d\n", oop2i(send(h, s_sizeInMemory)));
+                                               ^
+ovm.c:16:34: note: in definition of macro ‘oop2i’
+ #define oop2i(o) ((int)((char *)(o) - (char *)0))
+                                  ^
+objhello.c:79:42: note: in expansion of macro ‘send’
+  printf("hello sizeInMemory %d\n", oop2i(send(h, s_sizeInMemory)));
+                                          ^
+objhello.c:79:47: note: each undeclared identifier is reported only once for each function it appears in
+  printf("hello sizeInMemory %d\n", oop2i(send(h, s_sizeInMemory)));
+                                               ^
+ovm.c:16:34: note: in definition of macro ‘oop2i’
+ #define oop2i(o) ((int)((char *)(o) - (char *)0))
+                                  ^
+objhello.c:79:42: note: in expansion of macro ‘send’
+  printf("hello sizeInMemory %d\n", oop2i(send(h, s_sizeInMemory)));
+                                          ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ reset
+[3g        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ resetmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+In file included from objhello.c:1:0:
+objhello.c: In function ‘main’:
+objhello.c:79:47: error: ‘h’ undeclared (first use in this function)
+  printf("hello sizeInMemory %d\n", oop2i(send(h, s_sizeInMemory)));
+                                               ^
+ovm.c:16:34: note: in definition of macro ‘oop2i’
+ #define oop2i(o) ((int)((char *)(o) - (char *)0))
+                                  ^
+objhello.c:79:42: note: in expansion of macro ‘send’
+  printf("hello sizeInMemory %d\n", oop2i(send(h, s_sizeInMemory)));
+                                          ^
+objhello.c:79:47: note: each undeclared identifier is reported only once for each function it appears in
+  printf("hello sizeInMemory %d\n", oop2i(send(h, s_sizeInMemory)));
+                                               ^
+ovm.c:16:34: note: in definition of macro ‘oop2i’
+ #define oop2i(o) ((int)((char *)(o) - (char *)0))
+                                  ^
+objhello.c:79:42: note: in expansion of macro ‘send’
+  printf("hello sizeInMemory %d\n", oop2i(send(h, s_sizeInMemory)));
+                                          ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./a[Kobjhello 
+Testing String
+hello sizeInMemory 9
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+In file included from objhello.c:1:0:
+objhello.c: In function ‘String_sizeInMemory’:
+objhello.c:50:20: error: ‘struct object’ has no member named ‘length’
+  return i2oop((self->length)+sizeof(int));
+                    ^
+ovm.c:17:50: note: in definition of macro ‘i2oop’
+ #define i2oop(i) ((struct object *)((char *)0 + (i)))
+                                                  ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+hello sizeInMemory 37275052
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+In file included from objhello.c:1:0:
+objhello.c: In function ‘String_sizeInMemory’:
+objhello.c:50:20: error: ‘struct object’ has no member named ‘length’
+  return i2oop((self->length)+sizeof(int));
+                    ^
+ovm.c:17:50: note: in definition of macro ‘i2oop’
+ #define i2oop(i) ((struct object *)((char *)0 + (i)))
+                                                  ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+hello sizeInMemory 10663340
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+hello sizeInMemory 9
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+In file included from objhello.c:1:0:
+objhello.c: In function ‘String_sizeInMemory’:
+objhello.c:50:20: error: ‘struct object’ has no member named ‘length’
+  return i2oop((self->length)+sizeof(int));
+                    ^
+ovm.c:17:50: note: in definition of macro ‘i2oop’
+ #define i2oop(i) ((struct object *)((char *)0 + (i)))
+                                                  ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+hello sizeInMemory 9
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+hello sizeInMemory 9
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 2
+gcc -std=gnu99 -g -o ovmhello ovmhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./o
+objhello  ovmhello  
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./ovmhello 
+Testing String
+Object Machine v1.0
+hello length 5
+hello world
+Testing Array
+array elements 4
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./ovmhello [5Pmake 2
+gcc -std=gnu99 -g -o ovmhello ovmhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 2./ovmhello 
+Testing String
+Object Machine v1.0
+hello length 5
+hello world
+Testing Array
+array elements 4
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./ovmhello [5Pmake 2./ovmhello [5Pmake 2[K3
+gcc -std=gnu99 -g -o objhello objhello.c
+objhello.c: In function ‘String_sizeInMemory’:
+objhello.c:50:50: error: macro "oop2i" passed 2 arguments, but takes just 1
+  printf("Testing object %d\n",oop2i(self,s_length));
+                                                  ^
+objhello.c:50:31: error: ‘oop2i’ undeclared (first use in this function)
+  printf("Testing object %d\n",oop2i(self,s_length));
+                               ^
+objhello.c:50:31: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./ovmhello 
+Testing String
+Object Machine v1.0
+hello length 5
+hello world
+Testing Array
+array elements 4
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./ovmhello [5Pmake 3./ovmhello [5Pmake 2./ovmhello [5Pmake 2./objhello 
+Testing String
+hello sizeInMemory 9
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello vm[C[C[C[C[C[C
+Testing String
+Object Machine v1.0
+hello length 5
+hello world
+Testing Array
+array elements 4
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./ovmhello bj[C[C[C[C[C[Cvm[C[C[C[C[C[C[5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Testing object 5
+hello sizeInMemory 9
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+hello sizeInMemory 9
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 

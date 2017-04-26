@@ -1,0 +1,33 @@
+TECHNICAL NOTE
+
+The assignment have given an in-depth knowledge of how a message passing virtual machine works.
+
+SIZE FUNCTION DESCRIPTION
+
+To implement the sizeInMemory function we added the method in the virtual table of object since it is common for all the object types.
+
+Depending on the type of object for which the sizeInMemory method we calculate the memory occupied by the chunk and then report it
+
+For the String type of object the sizeInMemory is given by 
+	(length of string)*1 + sizeof(int) + sizeof(Vtable) + padding bits
+
+For Array type object the sizeInMemory is given by
+	(array length) *(sizeof(Object pointers)) + sizeof(int) + sizeof(Vtable) + padding bits
+
+This is because the array stores pointer of object type.
+
+Padding bit are added to make it the closest multiple of 4.
+
+APPEND FUNCTION DESCRIPTION
+
+The append function take two arguments that is the two string that need to be concatenated. It the creates a character array of the size of the sum of the lengths of the two strings that need to be concatenated. The function then combine both the sting into the character array. It then creates a new object with the concatenated string as it's payload and then returns it.
+
+EXPERIMENTS.
+
+We have tried to pass different objects to the size function and It gives correct value for the all the objects we have tired for.
+
+We have tried the append function to append types of string and then finally concatenate the string "hello <sp> world <nl>"
+
+OBSERVATIONS
+
+The (h sizeInMemory + w sizeInMemory) = (h append: w) sizeInMemory expression results in false as the (h sizeInMemory + w sizeInMemory) adds the virtual table size twice for both objects 'h' ans 'w' where as for the sizeInMemory of (h append: w) it only adds the virtual table size once.

@@ -1,0 +1,496 @@
+Script started on Tuesday 28 March 2017 10:52:06 PM IST
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ech [Ko "Ahmad Shaa[Kyaan [K:[K"
+Ahmad Shayaan
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ amke 3[K[K[K[K[K[Kmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./obk[Kjhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+Segmentation fault (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+Segmentation fault (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+In file included from objhello.c:1:0:
+objhello.c: In function ‘String_sizeInMemory’:
+objhello.c:125:26: error: ‘line’ undeclared (first use in this function)
+    struct object *t=send(line, s_at, i);
+                          ^
+ovm.c:198:45: note: in definition of macro ‘send’
+       struct object  *r = (struct object *)(receiver); \
+                                             ^
+objhello.c:125:26: note: each undeclared identifier is reported only once for each function it appears in
+    struct object *t=send(line, s_at, i);
+                          ^
+ovm.c:198:45: note: in definition of macro ‘send’
+       struct object  *r = (struct object *)(receiver); \
+                                             ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3[Kmake 3./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+Array sizeInMemory 0
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+Segmentation fault (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ MAKE [K[K[K[K[KRESET
+RESET: command not found
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ reset [K
+[3g        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>make 3]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+Segmentation fault (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+In file included from objhello.c:1:0:
+objhello.c: In function ‘String_sizeInMemory’:
+objhello.c:126:11: error: ‘sizeInMemory’ undeclared (first use in this function)
+    send(t,sizeInMemory);
+           ^
+ovm.c:199:39: note: in definition of macro ‘send’
+       struct closure *c = vt_bind(r, (selector)); \
+                                       ^
+objhello.c:126:11: note: each undeclared identifier is reported only once for each function it appears in
+    send(t,sizeInMemory);
+           ^
+ovm.c:199:39: note: in definition of macro ‘send’
+       struct closure *c = vt_bind(r, (selector)); \
+                                       ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+In file included from objhello.c:1:0:
+objhello.c: In function ‘String_sizeInMemory’:
+objhello.c:126:11: error: ‘sizeInMemory’ undeclared (first use in this function)
+    send(t,sizeInMemory);
+           ^
+ovm.c:199:39: note: in definition of macro ‘send’
+       struct closure *c = vt_bind(r, (selector)); \
+                                       ^
+objhello.c:126:11: note: each undeclared identifier is reported only once for each function it appears in
+    send(t,sizeInMemory);
+           ^
+ovm.c:199:39: note: in definition of macro ‘send’
+       struct closure *c = vt_bind(r, (selector)); \
+                                       ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make [K 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./on[Kbjhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+hello world
+Segmentation fault (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ [K]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ maek [K[K[Kek[K[Kke 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ gdb ./objhello 
+GNU gdb (Ubuntu 7.7.1-0ubuntu5~14.04.2) 7.7.1
+Copyright (C) 2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./objhello...done.
+(gdb) n
+The program is not being run.
+(gdb) n
+The program is not being run.
+(gdb) s
+The program is not being run.
+(gdb) sa[K[Ka
+Ambiguous command "a": actions, add-auto-load-safe-path, add-inferior, add-symbol-file, add-symbol-file-from-memory...
+(gdb) s
+The program is not being run.
+(gdb) r
+Starting program: /home/shayaan/sem_6/mos/OVM/objhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000400c95 in vt_bind (rcv=0x0, selector=0x605568) at ovm.c:207
+207		struct vtable *rvt = vtof(rcv);
+(gdb) n
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+(gdb) ls
+Undefined command: "ls".  Try "help".
+(gdb) quit
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ reset
+[3g        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ls
+day1.log  day3.log  day5.log   makefile  objhello.c  [0m[01;32movmhello[0m    [01;32mtest[0m    test.txt
+day2.log  day4.log  doubt.txt  [01;32mobjhello[0m  ovm.c       ovmhello.c  test.c  vt.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+Segmentation fault (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ gdb ./objhello 
+GNU gdb (Ubuntu 7.7.1-0ubuntu5~14.04.2) 7.7.1
+Copyright (C) 2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./objhello...done.
+(gdb) r
+Starting program: /home/shayaan/sem_6/mos/OVM/objhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000400c95 in vt_bind (rcv=0x0, selector=0x605568) at ovm.c:207
+207		struct vtable *rvt = vtof(rcv);
+(gdb) n
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+(gdb) ecit
+Undefined command: "ecit".  Try "help".
+(gdb) exit
+Undefined command: "exit".  Try "help".
+(gdb) quit
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ reset
+[3g        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ resetgdb ./objhello [4P[C[C[C[C[C[C[C[C[C[C[C[5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+objhello.c: In function ‘String_sizeInMemory’:
+objhello.c:122:3: warning: implicit declaration of function ‘size’ [-Wimplicit-function-declaration]
+   temp=(l*size(struct object *)+sizeof(int)+sizeof(vtof(self)));
+   ^
+objhello.c:122:16: error: expected expression before ‘struct’
+   temp=(l*size(struct object *)+sizeof(int)+sizeof(vtof(self)));
+                ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./[K[Kmake 3[1Presetmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+Array sizeInMemory 64
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+Array sizeInMemory 64
+Segmentation fault (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+Array sizeInMemory 64
+
+Segmentation fault (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+Array sizeInMemory 64
+
+Segmentation fault (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3./objhello [5Pmake 3./objhello [5Pmake 3./objhello [5Pmake 3[1Presetgdb ./objhello [4P[C[C[C[C[C[C[C[C[C[C[C[4@gdb [C[C[C[C[C[C[C[C[C[C[C
+GNU gdb (Ubuntu 7.7.1-0ubuntu5~14.04.2) 7.7.1
+Copyright (C) 2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./objhello...done.
+(gdb) r
+Starting program: /home/shayaan/sem_6/mos/OVM/objhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+Array sizeInMemory 64
+
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000400cc1 in vt_bind (rcv=0x403029, selector=0x6058e8) at ovm.c:210
+210		struct vtable *super = rvt->parent;
+(gdb) r[Kquit
+A debugging session is active.
+
+	Inferior 1 [process 15800] will be killed.
+
+Quit anyway? (y or n) ^[[A^[[B        y
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ gdb ./objhello [4P[C[C[C[C[C[C[C[C[C[C[C[5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3gdb ./objhello 
+GNU gdb (Ubuntu 7.7.1-0ubuntu5~14.04.2) 7.7.1
+Copyright (C) 2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./objhello...done.
+(gdb) r
+Starting program: /home/shayaan/sem_6/mos/OVM/objhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+Array sizeInMemory 64
+
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000400cc1 in vt_bind (rcv=0x403029, selector=0x6058e8) at ovm.c:210
+210		struct vtable *super = rvt->parent;
+(gdb) exit [K[K[K[K[Kquit [K
+A debugging session is active.
+
+	Inferior 1 [process 15860] will be killed.
+
+Quit anyway? (y or n) y
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ reset
+[3g        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ resetgdb ./objhello [10Preset[Kresetgdb ./objhello [9Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+Testing Array
+Array sizeInMemory 64
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ exit [K
+exit
+
+Script done on Tuesday 28 March 2017 11:35:01 PM IST

@@ -1,0 +1,109 @@
+Observations:-
+
+We observed how the I/O properties of the terminal can be changed form a C code
+using the termios.h library. We can store all the parameters associated with
+the terminal in variables using the tcgetattr function, then change the
+parameters within the variable, then can make the changed parameters as the
+parameters of the terminal using the tcsetattr function.
+
+I also observed that we have to explicitly restores the parameters of the
+terminal as even after the code finished executing the echo mode was still
+disabled.
+
+We also observed that if a program terminates and leave the terminal in an
+abnormal state we can use the reset command to restore the properties of the
+terminal.
+
+Analysis of code:-
+
+The code for the assignment uses the c_lflag member of the struct termios
+structure to disable and then enable the the canonical and echo mode of the
+terminal. The code declares two variables of named old and new of type struct
+termios. 
+
+The old and new variable both store the parameters associated with the terminal
+by using the tcgetattr function. The tcgetattr function is stores all the
+parameters associated with the terminal in the variables passed to it as
+arguments. 
+
+The c_lflag member of the struct termios is used to disable the canonical and
+echo parameters of the new variable, then uses the tcsetattr function declared
+in the termios.h header to set the parameters of the terminal to the parameters
+of the new variable.
+
+It then gets the input character using the getchar function to get the input
+character. The code then restores the parameter of the terminal by setting it
+to the parameters of the old variable.
+
+Finally puts the '*' character on the terminal
+
+During the process of coding, I was restoring the state of the terminal as in
+the beginning I was using only one variable and making changes to the
+parameters within it. Thus the echo mode was disabled even after and then I ahd
+to use two variables so as to restore the parameters of the terminal.
+
+Conclusion:-
+
+Properties of the terminal can be manipulated using C code by using some
+libraries and their functions.
+
+
+Answers to given questions:-
+
+1. The execve system calls executes the program pointed by the filename. The
+filename must be either a binary executable, or a script starting with a line
+of the form "#! interpreter [arg]". In the case of execute the c program
+written by us the execve system call executes the "./gossip" binary executable.
+
+The third argument in the execve system call is the envp array, which is an
+array of strings. The envp array contains key=value, which are passed as
+environment to the new program. The envp array should be terminated by a NULL
+pointer.
+
+2. The third argument int the main function is the envp array. It is an array
+of strings, and contains the a list of all the environment variables of the
+shell. The environment variables are stored in the envp array in the following
+format 'NAME = value'.
+
+The getenv function, defined in the system header 'stdlib.h'. It contains a
+single argument, name of the variable whose value you which to discover.
+
+Example - home = getenv("HOME"); it gives you the home directory.
+
+3. In canonical input processing mode, terminal input is processed in lines
+terminated by newline, EOF, or EOL characters. No input can be read until an
+entire line has been typed by the user, and the read function returns at most a
+single line of input, no matter how many bytes are requested.
+
+Canonical mode is useful when you want to provide the program with a way to
+edit input line by line, whatever the user types is kept in an editable buffer
+managed by the terminal until the user presses <Enter>. This allows the user to
+use backspace, auto-complete and other functionalities.
+
+Canonical mode is not useful when the program accepts a single character or the
+program provides it's own editing facilities. If the program accepts a single
+character as input then there is no need to keep the input in an editable
+buffer and wait for the user to hit <Enter>.
+
+4. The program disables the canonical mode as well as Echo. This is because if
+we don't disable canonical mode and only disable Echo the program will wait for
+the user to hit the <Enter> key and then output '*' for whatever input was
+provided by the user. But if we disable canonical mode also then the '*' are
+put on the terminal as soon as the user gives some input, the program does not
+have to wait for the user to hit the <Enter> key.
+
+5. Yes the reset command was used to restore the properties of the terminal.
+When the reset command is invoked it enables the echo, changes the terminal
+mode to the canonical mode ('cooked mode'), enables newline translation, resets
+any unset special characters to their default values and then finally
+re-initializes the terminal
+
+6. The stty command is used to change and print the terminal settings.
+	
+To turn of echo in the terminal use the following command.
+
+stty -echo
+
+To restore echo in the terminal use the following command.
+
+stty echo

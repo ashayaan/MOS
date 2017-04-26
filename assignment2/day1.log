@@ -1,0 +1,2103 @@
+Script started on Sunday 26 March 2017 10:29:33 AM IST
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ date
+Sun Mar 26 10:29:35 IST 2017
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ echo "Ahamd S[K[K[K[K[Kmad Sh[KHaya[K[K[K[Khayaan [K IMRT[K[KT2014004"
+Ahmad Shayaan IMT2014004
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Object Machine ready
+Testing String
+Object Machine v1.0
+hello length 5
+hello world
+Testing Array
+array elements 4
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Object Machine ready
+Testing String
+Object Machine v1.0
+hello length 5
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+objhello.c: In function ‘main’:
+objhello.c:44:2: error: ‘s_append’ undeclared (first use in this function)
+  s_append = (typeof(s_atput))send(Symbol, s_newp, "append");
+  ^
+objhello.c:44:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ [K]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Testing length 20Object Machine v1.0
+hello length 5
+Testing length 5helloTesting length 1 Testing length 5worldTesting length 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Testing length 20Object Machine v1.0
+hello length 5
+Testing length 5helloTesting length 1 Testing length 5worldTesting length 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+objhello.c: In function ‘String_append’:
+objhello.c:42:8: error: ‘next’ undeclared (first use in this function)
+   conc[next++]=self2->chars[i]
+        ^
+objhello.c:42:8: note: each undeclared identifier is reported only once for each function it appears in
+objhello.c:43:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+helloworld�]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+objhello.c: In function ‘String_append’:
+objhello.c:40:27: error: ‘self’ undeclared (first use in this function)
+  return (struct object * )self;
+                           ^
+objhello.c:40:27: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+hello]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+helloworld]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+hello
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+helloObject Machine v1.0
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+helloworldt]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+In file included from objhello.c:1:0:
+objhello.c: In function ‘main’:
+objhello.c:85:44: error: ‘g’ undeclared (first use in this function)
+  struct object *temp    =  send(h,s_append,g);
+                                            ^
+ovm.c:200:29: note: in definition of macro ‘send’
+       c ? c->method(c, r, ##__VA_ARGS__) : 0; \
+                             ^
+objhello.c:85:44: note: each undeclared identifier is reported only once for each function it appears in
+  struct object *temp    =  send(h,s_append,g);
+                                            ^
+ovm.c:200:29: note: in definition of macro ‘send’
+       c ? c->method(c, r, ##__VA_ARGS__) : 0; \
+                             ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello [5Pmake 3[Kmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+helloObject Machine v1.0
+E]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+helloworldA]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+objhello.c: In function ‘String_append’:
+objhello.c:48:2: error: expected ‘;’ before ‘return’
+  return temp;
+  ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello [5Pmake 3[Kmake 3./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+Testing in Function
+helloworld�helloworld�]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+objhello.c: In function ‘String_append’:
+objhello.c:36:10: warning: assignment makes pointer from integer without a cast [enabled by default]
+   conc[i]=self1->chars[i];
+          ^
+objhello.c:42:16: warning: assignment makes pointer from integer without a cast [enabled by default]
+   conc[start++]=self2->chars[i];
+                ^
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+Testing in Function
+helloworld,helloworld,]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+Testing in Function
+helloworld]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+Testing in Function
+helloworld]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing
+helloworld]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ reset
+[3g        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ [K]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ reset./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+In file included from objhello.c:1:0:
+objhello.c: In function ‘main’:
+ovm.c:199:14: warning: implicit declaration of function ‘send’ [-Wimplicit-function-declaration]
+       struct closure *c = vt_bind(r, (selector)); \
+              ^
+objhello.c:89:28: note: in expansion of macro ‘send’
+  struct object *result2  = send(send(h,s_append,sp),s_append,send(w,s_append,nl));
+                            ^
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3[1Presetmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+In file included from objhello.c:1:0:
+objhello.c: In function ‘main’:
+ovm.c:199:14: warning: implicit declaration of function ‘send’ [-Wimplicit-function-declaration]
+       struct closure *c = vt_bind(r, (selector)); \
+              ^
+objhello.c:89:28: note: in expansion of macro ‘send’
+  struct object *result2  = send(send(h,s_append,sp),s_append,send(w,s_append,nl));
+                            ^
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3[1Presetmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./a[K[K[Kmake 3[1Presetmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3[1Preset./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing part 2
+helloworldTesting part 3
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing part 2
+helloworld
+Testing part 3
+helloworld]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing part 2
+helloworld
+Testing part 3
+helloworld]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing part 2
+helloworld
+Testing part 3
+hello orldworld
+�q]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+Testing part 2
+helloworld
+Testing part 3
+hello orldworld]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ^C
+
+bash: /objhello: No such file or directory
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ /objhello [1@.[C[C[C[C[C[C[C[C[C[C
+Testing String
+Object Machine v1.0
+hello length 5
+Testing part 2
+helloworld
+Testing part 3
+hello orldworld]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [1P[C[C[C[C[C[C[C[C[C[C[1@.[C[C[C[C[C[C[C[C[C[C
+Testing String
+Object Machine v1.0
+hello length 5
+Testing part 2
+helloworld
+Testing part 3
+hello orldworld]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [1P[C[C[C[C[C[C[C[C[C[C[1@.[C[C[C[C[C[C[C[C[C[C
+Testing String
+Object Machine v1.0
+hello length 5
+Testing part 2
+helloworld
+Testing part 3
+hello orldworld]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ amke [K[K[K[K[Kmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 3
+hello world]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ [K]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ rese[K[K[K[Kreset
+[3g        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ reset./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3[1Preset./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 3
+hello world]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 3
+Segmentation fault (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 3
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworld�V
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 3
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworld��
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworldaf
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+*** Error in `./objhello': free(): invalid pointer: 0x00000000015bfc08 ***
+AhmadShayaanAborted (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworld�
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShn
+Testing part 3
+hello hnworld
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+Ahmad
+Testing part 3
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+Ahmad 
+Testing part 3
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+Ahmad asdfasdfsadfasdfasdfasdfasdfasdfasdfasfd
+Testing part 3
+hello asdfasdfsadfasdfasdfasdfasdfasdfasdfasfdworld
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworldq�
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworlda�
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworld@
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworld�
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworld��
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworld��
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworldA%
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworldQn
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworld��
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworld1*
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworld��
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworld!
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworld3
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 2
+AhmadShayaan
+Testing part 3
+hello hayaanworldN
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 3
+hello world
+
+Testing part 2
+AhmadShayaan]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 3
+hello world
+
+Testing part 2
+Ahmad Shayaan]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 3
+hello world
+
+Testing part 2
+Ahmad Shayaan
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+objhello.c: In function ‘main’:
+objhello.c:95:17: error: redefinition of ‘fname’
+  struct object *fname     = send(String, s_newp, "Ahmad ");
+                 ^
+objhello.c:89:17: note: previous definition of ‘fname’ was here
+  struct object *fname     = send(String, s_newp, "Ahmad ");
+                 ^
+objhello.c:96:17: error: redefinition of ‘lname’
+  struct object *lname     = send(String, s_newp, "Shayaan\n");
+                 ^
+objhello.c:90:17: note: previous definition of ‘lname’ was here
+  struct object *lname     = send(String, s_newp, "Shayaan\n");
+                 ^
+objhello.c:97:17: error: redefinition of ‘cname’
+  struct object *cname     = send(fname,s_append,lname);
+                 ^
+objhello.c:91:17: note: previous definition of ‘cname’ was here
+  struct object *cname     = send(fname,s_append,lname);
+                 ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3[Kmake 3./objhello 
+Testing String
+Object Machine v1.0
+hello length 5
+
+Testing part 3
+hello world
+
+Testing part 2
+Ahmad Shayaan
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+In file included from objhello.c:1:0:
+objhello.c: In function ‘main’:
+objhello.c:97:51: error: ‘lname2’ undeclared (first use in this function)
+  struct object *cname2     = send(fname2,s_append,lname2);
+                                                   ^
+ovm.c:200:29: note: in definition of macro ‘send’
+       c ? c->method(c, r, ##__VA_ARGS__) : 0; \
+                             ^
+objhello.c:97:51: note: each undeclared identifier is reported only once for each function it appears in
+  struct object *cname2     = send(fname2,s_append,lname2);
+                                                   ^
+ovm.c:200:29: note: in definition of macro ‘send’
+       c ? c->method(c, r, ##__VA_ARGS__) : 0; \
+                             ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing part 3
+hello world
+
+Testing part 2
+Ahmad Shayaan
+
+Testing part 2
+Ahmad Shayaan
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing part 3
+hello world
+
+Testing part 2
+Ahmad Shayaan
+
+Testing part 2
+VineetReddy
+n
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing part 3
+hello world
+
+Testing part 2
+Ahmad Shayaan
+
+Testing part 2
+Vineet Reddy 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing part 2
+Vineet Reddy 
+
+Testing part 3
+hello  Reddy 
+world
+
+Testing part 2
+Ahmad Shayaan
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing part 3
+hello world
+
+Testing part 2
+Ahmad Shayaan
+
+Testing part 2
+Vineet Reddy 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing part 3
+hello world
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+helloworlddy 
+
+
+Testing append
+Ahmad Shayaan
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing part 3
+helloworld
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing part 3
+helloworld
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing part 3
+hello world
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing part 3
+hello world
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+*** Error in `./objhello': free(): invalid pointer: 0x0000000000627d48 ***
+Aborted (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing part 3
+hello world
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+*** Error in `./objhello': free(): invalid pointer: 0x0000000001ef4d88 ***
+Aborted (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing part 3
+hello world
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+*** Error in `./objhello': free(): invalid pointer: 0x00000000021f6a88 ***
+Aborted (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+objhello.c: In function ‘main’:
+objhello.c:100:7: error: ‘object’ undeclared (first use in this function)
+  free(object);
+       ^
+objhello.c:100:7: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing part 3
+hello world
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+*** Error in `./objhello': free(): invalid pointer: 0x0000000000fcaa88 ***
+Aborted (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+
+Testing part 3
+hello world
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+*** Error in `./objhello': free(): invalid pointer: 0x0000000000a4fa88 ***
+Aborted (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+objhello.c: In function ‘main’:
+objhello.c:100:7: error: ‘object’ undeclared (first use in this function)
+  free(object);
+       ^
+objhello.c:100:7: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing part 3
+hello world
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+*** Error in `./objhello': free(): invalid pointer: 0x00000000017ada88 ***
+Aborted (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing append
+Ahmad Shayaan
+
+Testing part 3
+hello Shayaan
+world
+
+Testing append
+Vineet Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing append
+Ahmad Shayaan
+
+Testing part 3
+hello Shayaan
+world
+
+Testing append
+Vineet Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+
+Testing append
+Ahmad Shayaan
+
+Testing part 3
+hello Shayaan
+world
+
+Testing append
+Vineet Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+
+Testing append
+Ahmad Shayaan
+
+Testing part 3
+hello Shayaan
+world
+
+Testing append
+Vineet Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing append
+Ahmad Shayaan
+
+Testing part 3
+hello Shayaan
+world
+
+Testing append
+Vineet Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing append
+Ahmad Shayaan
+
+Testing part 3
+hello Shayaan
+world
+
+Testing append
+Vineet Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello  Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+Object Machine v1.0
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello  Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+helloworlddy 
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+helloworlddy 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+world
+orlddy 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+worldhellody 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello  Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Object Machine v1.0
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello  Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello  Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Segmentation fault (core dumped)
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello  Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+objhello.c: In function ‘String_append’:
+objhello.c:38:13: error: ‘struct object’ has no member named ‘chars’
+   conc[i]=t1->chars[i];
+             ^
+objhello.c:44:19: error: ‘struct object’ has no member named ‘chars’
+   conc[start++]=t2->chars[i];
+                   ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello  Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello  Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet 
+ayaan
+
+Testing part 3
+hello  
+ayaan
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet hayaan
+
+Testing part 3
+hello  hayaan
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet hayaan
+
+Testing part 3
+hello  hayaan
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet aayaan
+
+Testing part 3
+hello  aayaan
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet a 
+aan
+
+Testing part 3
+hello  a 
+aan
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello  Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet  
+yaan
+
+Testing part 3
+hello   
+yaan
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet  
+ aan
+
+Testing part 3
+hello   
+ aan
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello  Reddy 
+world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing part 3
+hello world
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello ^C
+
+No command 'ake' found, did you mean:
+ Command 'rake' from package 'rake' (main)
+ Command 'fake' from package 'fake' (universe)
+ Command 'ale' from package 'ale' (universe)
+ Command 'jake' from package 'node-jake' (universe)
+ Command 'axe' from package 'axe' (multiverse)
+ Command 'abe' from package 'abe' (universe)
+ Command 'ase' from package 'python-ase' (universe)
+ Command 'make' from package 'make' (main)
+ Command 'cake' from package 'cakephp-scripts' (universe)
+ Command 'ace' from package 'libace-perl' (universe)
+ake: command not found
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ake 3./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3[1P[C[C[C[C[C
+No command 'ake' found, did you mean:
+ Command 'fake' from package 'fake' (universe)
+ Command 'rake' from package 'rake' (main)
+ Command 'abe' from package 'abe' (universe)
+ Command 'ace' from package 'libace-perl' (universe)
+ Command 'ase' from package 'python-ase' (universe)
+ Command 'jake' from package 'node-jake' (universe)
+ Command 'make' from package 'make' (main)
+ Command 'axe' from package 'axe' (multiverse)
+ Command 'ale' from package 'ale' (universe)
+ Command 'cake' from package 'cakephp-scripts' (universe)
+ake: command not found
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ake 3[1@m[C[C[C[C[C[1P[C[C[C[C[C[1@m[C[C[C[C[C
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3[1P[C[C[C[C[C[1@m[C[C[C[C[C[1P[C[C[C[C[C./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ reset
+[3g        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ reset./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3[1Preset./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ 
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+5]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ reset
+[3g        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ reset./objhello [5Pmake 3./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3[1Preset./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+12
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+objhello.c: In function ‘main’:
+objhello.c:102:2: error: expected ‘,’ or ‘;’ before ‘return’
+  return 0;
+  ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+12
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ [K]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ exit
+exit
+
+Script done on Sunday 26 March 2017 12:28:29 PM IST

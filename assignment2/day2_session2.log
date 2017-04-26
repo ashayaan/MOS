@@ -1,0 +1,100 @@
+Script started on Tuesday 28 March 2017 04:06:51 PM IST
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ echo "Ahmad SHayaa[K[K[K[K[Khja[K[Kayaan [K IMT^[[4~^[~[~2~[C~[K[1P~[1P~[2P~[1P~[1P~[2P~[C[K2014004"
+Ahmad Shayaan IMT2014004
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ echo "Ahmad Shayaan IMT2014004"[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pvim makefile [7Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+In file included from objhello.c:1:0:
+objhello.c: In function ‘String_sizeInMemory’:
+ovm.c:17:47: error: invalid operands to binary + (have ‘char *’ and ‘double’)
+ #define i2oop(i) ((struct object *)((char *)0 + (i)))
+                                               ^
+objhello.c:111:9: note: in expansion of macro ‘i2oop’
+  return i2oop(pow(2,x));
+         ^
+make: *** [3] Error 1
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3echo "Ahmad Shayaan IMT2014004"make 3[K
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3echo "Ahmad Shayaan IMT2014004"[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pvim makefile [7Pmake 3;./objhello 
+Testing String
+Checking 5.087463
+hello sizeInMemory 0
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+array elements 4
+Checking 4.000000
+Array sizeInMemory 0
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+Checking 5.087463
+hello sizeInMemory 0
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+array elements 4
+Checking 4.000000
+Array sizeInMemory 0
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+hello sizeInMemory 5
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+array elements 4
+Array sizeInMemory 4
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ ./objhello [5Pmake 3
+gcc -std=gnu99 -g -o objhello objhello.c -lm
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ make 3./objhello 
+Testing String
+hello sizeInMemory 32
+
+Testing append
+Ahmad Shayaan
+
+Testing append
+Vineet Reddy 
+
+Testing part 3
+hello world
+
+Testing Array
+array elements 4
+Array sizeInMemory 16
+
+]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ reset [K
+[3g        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ reset
+[3g        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>e]0;shayaan@shayaan-X550LD: ~/sem_6/mos/OVMshayaan@shayaan-X550LD:~/sem_6/mos/OVM$ e[Kexit [K
+exit
+
+Script done on Tuesday 28 March 2017 04:08:42 PM IST

@@ -1,0 +1,5 @@
+Compilation command
+	make all
+
+Command to execute
+	./objhello
